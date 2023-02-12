@@ -1,0 +1,13 @@
+alphanum==0.2.0
+fake_useragent==1.1.1
+latest_user_agents==0.0.3
+names==0.3.0
+names_dataset==3.1.0
+pandas==1.5.3
+passwordgenerator==1.5.1
+proxy_checking==0.0
+pyautogui==0.9.53
+random_username==1.0.2
+random_word==1.0.11
+selenium==4.8.0
+undetected_chromedriver==3.4.6
