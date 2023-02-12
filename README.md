@@ -1,9 +1,14 @@
 
-![logo igCreator](https://hardwareviews.com/wp-content/uploads/2019/02/Instagram-Banner-Logo-de-Instagram-vector-logo-instagram-sin-fondo-1000x480.gif)
+![logo igCreator](https://f.rpp-noticias.io/2022/05/23/1262661280489430-2068674926646636-1681880483263320575-ngif.gif)
 
 # IGCreator
 
 Welcome! My name is Lautaro Roa and I am the creator of this script. This has the function of creating instagram accounts automatically, validating the accounts through the automatically generated email. Additionally, add a description and profile picture to the created account.
+
+## Features
+    -Create verified instagram accounts with emails.
+    -Assigns a description and profile picture.
+    -Use proxies, inside there is a proxy finder which works.
 
 ## HOW TO USE
 
