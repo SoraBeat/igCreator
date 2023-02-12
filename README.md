@@ -1,5 +1,5 @@
 
-![logo igCreator](https://f.rpp-noticias.io/2022/05/23/1262661280489430-2068674926646636-1681880483263320575-ngif.gif)
+![logo igCreator](https://hardwareviews.com/wp-content/uploads/2019/02/Instagram-Banner-Logo-de-Instagram-vector-logo-instagram-sin-fondo-1000x480.gif)
 
 # IGCreator
 
