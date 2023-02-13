@@ -37,8 +37,8 @@ def main():
             checker = ProxyChecker()
             proxyRes = checker.check_proxy(proxy)
             if proxyRes["status"] == 1:
-                print("Valid proxy! waiting 1 minute to start")
-                time.sleep(60)
+                print("Valid proxy! waiting 2 minutes to start")
+                time.sleep(120)
 
                 options = uc.ChromeOptions()
                 options.add_argument('--ignore-ssl-errors=yes')
@@ -185,10 +185,11 @@ def main():
                 imageToSelect = "./images/" + str(random.randint(1, 50))+".jpg"
 
                 btnLoadImage = driver2.find_element(
-                    By.XPATH, '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div/article/div/div[2]/button')
+                    By.XPATH, '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div/article/div/div[1]/div/button')
                 driver2.execute_script("arguments[0].click();", btnLoadImage)
                 time.sleep(10)
-                pyautogui.write(os.path.abspath(imageToSelect))
+                absolutePath = os.path.abspath(imageToSelect)
+                pyautogui.write(absolutePath)
                 time.sleep(10)
                 pyautogui.press('enter')
                 time.sleep(15)
